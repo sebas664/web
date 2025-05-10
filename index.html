@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Sebastian Hernandez</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Sebastian/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MAMÁ</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">QUIERO DECIRTE</a></li>   
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Sebastian</spans> </span>Hijo de Ledis Maria Hernandez Vitola</h2>
+                <p class="descripcion">Feliz Día de las Madres, mamá ❤️
+                    Hoy quiero recordarte lo especial que eres para mí ya que siempre me has querido y me has apoyado.  
+                    ¡Disfruta tu día al máximo porque te lo mereces todo y más! </p>
+                <a href="#portfolio">Ir a las fotos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/mamá.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi mamá</p>
+            <h2>Hola, mi mamá se llama <span>Ledis</span> </h2>
+            <h3>Descripción de mi mamá</h3>
+            <p>Feliz Día de las Madres, mamá ❤️
+                Te quiero dar gracias por todo el amor y cariño que me regalas.Eres unica y aunque con defectos eres mi mamá, la que siempre me ha apoyado en lo que yo he necesitado .</p>
+            <p>Te amo con todo mi corazón.</p>
+            <!-- <a href="#">Descargar CV</a>-->
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Quiero decirte</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa fa-heart"></i></span>
+                <h4>Eres la mejor</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>Eres la mejr mamá del mundo por todo lo que haces pooe mí</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa fa-graduation-cap"></i></span>
+                <h4>Eres muy responsable</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>eres muy responsable con lo que te comprometes a hacer y eso te hace ser genial</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa fa-plane"></i></span>
+                <h4>eres unica</h4></h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>no hay otra mamá como tú en el mundo</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>comprometida</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>responsable</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>buena mamá</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>luchadora </p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados-Sebastian Hernandez - 2025</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
